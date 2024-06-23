@@ -1,0 +1,22 @@
+###
+POST http://localhost:3000/api/posts/add
+Content-Type: application/json
+
+{
+    "titulo": "Imagen prueba",
+    "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Colo-Colo.svg/1200px-Colo-Colo.svg.png",
+    "descripcion": "Colo Colo",
+    "likes": 1
+}
+
+
+###
+GET  http://localhost:3000/api/posts/getPosts
+Content-Type: 'aplication/json'
+
+###
+PUT  http://localhost:3000/api/posts/put/2?likes=9999
+Content-Type: application/json
+####
+Delete  http://localhost:3000/api/posts/delete/2
+Content-Type: application/json
